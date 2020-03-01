@@ -23,3 +23,17 @@ puts 'The subtraction total is ' + totalSubtraction.to_s
 puts 'The multiplication is ' + totalMultiplication.to_s
 puts 'The total division is ' + totalDivision.to_s
 
+# Operators comparation 
+
+a = 5
+b = 10
+
+puts a > b # higher than (false)
+puts b > a # higher than (true)
+puts a != b # diferent than (true)
+puts a == b # equal operator (false)
+puts a.eql?(b) # another equal operator (false)
+
+
+
+
